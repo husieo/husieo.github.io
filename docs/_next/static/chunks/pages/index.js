@@ -231,7 +231,7 @@ function Layout(_ref) {
       columnNumber: 15
     }
   }, __jsx("img", {
-    src: "/images/profile1.jpg",
+    src: "/images/canada_goose_hat.png",
     className: "".concat(_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerImage, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.borderCircle),
     alt: name,
     __self: this,

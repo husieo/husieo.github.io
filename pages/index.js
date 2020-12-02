@@ -22,15 +22,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p className={utilStyles.centerText}>
-          Communicator and Data Transformer.
+          Unidirectional Time Traveller.
         </p>
       </section>
       <section className={utilStyles.headingSm}>
         <p className={utilStyles.introText}>
           {" "}
-          <a href="https://aws.amazon.com/" className={utilStyles.orangeAnchor}>
-            AWS
-          </a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

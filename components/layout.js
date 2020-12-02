@@ -3,15 +3,15 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "chris behan";
-export const siteTitle = "chris behan";
+const name = "Oleksandr Husiev";
+export const siteTitle = "Oleksandr Husiev";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Personal website of chris behan" />
+        <meta name="description" content="Oleksandr Husiev. Personal website." />
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -22,6 +22,14 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <>
+          <img
+            src="/images/canada_goose_hat.png"
+            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+            alt={name}
+          />
+          <h1 className={utilStyles.heading2Xl}>{name}</h1>
+        </>
       </header>
       <main>{children}</main>
       {!home && (
